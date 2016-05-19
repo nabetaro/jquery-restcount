@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="jquery.restcount.js"></script>
+  </head>
+  <body>
+    <p>
+      <textarea class="count">aaaaa</textarea>
+      <input type="text" class="count" value="1111111" />
+    </p>
+    <script>
+      $(".count").restCount({charMax:10,displayPosition:'southwest'});
+    </script>
+  </body>
+</html>
